@@ -17,6 +17,6 @@ steps:
   inputs:
     script: |
       echo Write your commands here
-      
+      C:\Windows>akamai.exe
       echo Hello world
 
