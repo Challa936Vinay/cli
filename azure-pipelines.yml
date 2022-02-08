@@ -13,8 +13,13 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-    akamai purge --edgerc %host%client_token%access_token%client_secret%credential_desc%credential_type invalidate --cpcode 1151623 1136540
-  displayName: 'Run a multi-line script'
+
+    - task: CmdLine@2
+      inputs:
+        script: |
+          echo Write your commands here
+          
+          echo Hello world
+          
+          C:\Windows>akamai.exe
+
