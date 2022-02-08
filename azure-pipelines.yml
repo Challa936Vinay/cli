@@ -18,5 +18,6 @@ steps:
     script: |
       echo Write your commands here
       C:\Windows>akamai.exe
+      C:\Windows>set authentication=E:\credentials.txt
       echo Hello world
 
