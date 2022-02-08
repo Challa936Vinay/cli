@@ -15,7 +15,7 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      C:\Windows>akamai.exe
+      C:\Windows>akamai
       C:\Windows>SET authentication=E:\credentials.txt
       ECHO %authentication%
 
