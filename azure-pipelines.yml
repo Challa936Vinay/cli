@@ -15,7 +15,9 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      cd 
+      cd..\
+      c:
+      cd ip config
       SET authentication=E:\credentials.txt
       echo %authentication%
 
