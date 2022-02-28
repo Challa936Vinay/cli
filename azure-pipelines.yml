@@ -13,8 +13,10 @@ steps:
 - task: CmdLine@2
   inputs:
     inscript: |
-      cd..\
-      c:
+      cd \akamai.exe
+      akamai.exe
+      akamai install purge
+      akamai help
       cd ip config
       echo %authentication%
 
