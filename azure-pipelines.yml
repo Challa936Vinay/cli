@@ -19,4 +19,10 @@ steps:
       akamai help
       cd ip config
       echo %authentication%
+      echo testing build and then to release
+      - task: akamaicachepurge@1
+        inputs:
+          edgegridEndpoint: 'akamai cache test'
+          network: 'staging'
+          urls: 'https://www.bing.com/'
 
